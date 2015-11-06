@@ -45,15 +45,15 @@
 		height: 40px;		
 		background: url(../img/header_logo.png) no-repeat;
 		display: inline-block;
-	}	
-	.main-menu{
-	
-	}				
+	}			
 
 
 .dropdown-top:hover {
     color: #243143;
     background-color: #028BBC;
+    height: 89px;
+    color:white;
+    text-align: center;
 }
 
 .dropdown {
@@ -78,7 +78,7 @@
 }
 
 .dropdown a {
-    color: #DEE6F0;
+    color: #434343;
     display: block;
     text-decoration: none;
     font-size: 16px;
