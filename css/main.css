@@ -1,0 +1,121 @@
+	           //* Подключаем шрифты*//
+
+	@font-face {
+    font-family: "Open Sans Regular"; /* Имя шрифта */
+    src: url("../fonts/OpenSans.ttf"); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+    font-family: "Open Sans Bold"; /* Имя шрифта */
+    src: url("../fonts/OpenSans Bold.ttf"); /* Путь к файлу со шрифтом */
+   }
+    @font-face {
+    font-family: "Open Sans Semibold"; /* Имя шрифта */
+    src: url("../fonts/OpenSans Semibold.ttf"); /* Путь к файлу со шрифтом */
+   }
+    @font-face {
+    font-family: "Open Sans Light"; /* Имя шрифта */
+    src: url("../fonts/OpenSans Light.ttf"); /* Путь к файлу со шрифтом */
+   }
+    @font-face {
+    font-family: "Museo Sans 100"; /* Имя шрифта */
+    src: url("../fonts/MuseoSans 100.otf"); /* Путь к файлу со шрифтом */
+   }
+   html, body {
+    margin: 0;
+    padding: 0;
+    height: 1920px;
+    width: 1960px;
+    font-family: "Open Sans Regular";
+    font-size: 2em;
+    background-color: #FFFFFF;
+}
+
+	header {
+	display: block;
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+	height: 96px;
+	background: url(../img/header_background.png) no-repeat;
+	}
+	.header__logo{
+		margin-left: 489px;
+		margin-top: 24px;
+		width: 162px;
+		height: 40px;		
+		background: url(../img/header_logo.png) no-repeat;
+		display: inline-block;
+	}	
+	.main-menu{
+	
+	}				
+
+
+.dropdown-top:hover {
+    color: #243143;
+    background-color: #028BBC;
+}
+
+.dropdown {
+	height: 89px;
+	margin-top: 0;
+	display: inline-block;
+    width: 345px;
+    height: 89px;
+    margin-left: 135px;
+    margin-top: 0;
+    font-family: "Open Sans Regular";
+    font-size: 50px;
+}
+
+.dropdown li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    outline: none;
+    text-align: justify;
+
+}
+
+.dropdown a {
+    color: #DEE6F0;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+ul.dropdown li {
+    position: relative;
+}
+
+ul.dropdown,
+ul.dropdown-inside {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.dropdown-inside {
+    position: absolute;
+    left: -9999px;
+}
+
+ul.dropdown li.dropdown-top:hover .dropdown-inside {
+    display: block;
+    left: 0;
+    height: 200px;
+    width: 150px;
+    margin: 0;
+    background-color:#028BBC;
+}
+
+ul.dropdown li.dropdown-top:hover .dropdown-inside li {
+    display: block;
+    left: 0;
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+
+
