@@ -69,6 +69,7 @@
 }
 
 .dropdown li {
+    height: 89px;
     list-style: none;
     display: inline-block;
     vertical-align: middle;
@@ -84,6 +85,8 @@
     font-size: 16px;
     font-weight: bolder;
     text-align: center;
+    height: 89px;
+    line-height: 89px;
 }
 
 ul.dropdown li {
