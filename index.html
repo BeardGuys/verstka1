@@ -18,12 +18,29 @@
         			<a href="#" class="dropdown-top">SIGN UP</a>
 
             		<ul class="dropdown-inside">
- 						<li class="ddi"><div></div></li>
+ 						<li ><div class="registration_form">
+ 							<form action="/echo" method="post">
+							<label for="login-field"></label><br> 
+							<input type="text" id="login-field" value="E-mail"/><br>
+							<label for="password-field"></label><br>
+							<input type="password" id="password-field" value="Password"/><br>
+							<input type="submit" id="submit-field" value="LOG IN"><br>
+							<a href="#" class="forgot-password">Forgot password?</a>						
+
+
+ 						</div></li>
  					</ul>
         		</li>
 
         		<li class="dropdown-top dropdown-top_expander"><a href="#" class="dropdown-top">LOG IN</a></li>        
     		</ul>
+
+
+			<ul class="language-menu">
+        		<li class="language-menu__button" id='shift'><a href="#" class="language-menu__button" >ENG</a></li> 
+        		<li class="language-menu__button"><a href="#" class="language-menu__button">RUS</a></li>      
+    		</ul>
+
 
 	</header>
 

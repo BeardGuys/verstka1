@@ -23,10 +23,10 @@
    html, body {
     margin: 0;
     padding: 0;
-    height: 1920px;
-    width: 1960px;
+    height: 1960px;
+    width: 1920px;
     font-family: "Open Sans Regular";
-    font-size: 2em;
+    font-size: 1em;
     background-color: #FFFFFF;
 }
 
@@ -45,6 +45,7 @@
 		height: 40px;		
 		background: url(../img/header_logo.png) no-repeat;
 		display: inline-block;
+        vertical-align: top;
 	}			
 
 
@@ -61,10 +62,10 @@
 	display: inline-block;
     width: auto;
     height: 89px;
-    margin-left: 107px;
-    margin-top: 0;
-    font-family: "Open Sans Regular";
-    font-size: 62px;
+    margin-left: 101px;
+    margin-top: -1px;
+    vertical-align: middle;
+    font-size: 0;
 }
 
 .dropdown li {
@@ -87,6 +88,8 @@
     text-align: center;
     height: 89px;
     line-height: 89px;
+    font-size: 18px;
+    font-family: "Open Sans Semibold";
 }
 
 ul.dropdown li {
@@ -112,6 +115,7 @@ ul.dropdown li.dropdown-top:hover .dropdown-inside {
     border-bottom: 5px solid #00A8E0;
     background-color: #E4FAFB;
     margin: 0;
+    padding: 20px 0;
 }
 
 ul.dropdown li.dropdown-top:hover .dropdown-inside li {
@@ -124,9 +128,82 @@ ul.dropdown li.dropdown-top:hover .dropdown-inside li {
 
 .dropdown-top_expander{
     overflow: hidden;
-    padding: 0 38px;
+    padding: 0 19px;
 }
 .dropdown-top_down{
-    width: 112px;
-    padding: 0 14px;
+    width: 72px;
+    padding: 0 17px;
+}
+.registration_form{
+    padding-top: 20px;
+}
+#login-field,
+#password-field{
+    height: 33px;
+    width: 200px;
+    margin-left: 25px;
+    border-radius: 2px;
+    margin-top: 24px;
+}
+#submit-field{
+    height: 48px;
+    width: 200px;
+    margin-left: 25px;
+    border-radius: 4px;
+    margin-top: 24px;
+    border-bottom: 3px solid #648D3C;
+    background-color: #87CC44;
+    font-family: "Open Sans Bold";
+    color: white;
+
+}
+.forgot-password{
+    font-family: "Open Sans Light";
+}
+
+.language-menu{
+    height: 89px;
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    margin-left: 121px;
+    margin-top: 29px;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.language-menu__button{
+    overflow: hidden;
+    display: inline-block;
+    padding: 0 5px;
+ /*   width: 48px;
+    height: 30px;*/
+}
+.language-menu__button a {
+    color: #434343;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: "Open Sans Semibold";
+}
+.language-menu__button li {
+    height: 30px;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    outline: none;
+    text-align: justify;
+    margin-right: 0px;
+}
+.language-menu__button:hover {
+    color: white;
+    background-color: #028BBC;
+    height: 30px;
+    color:white;
+    text-align: center;  
 }
